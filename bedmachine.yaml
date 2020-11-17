@@ -1,9 +1,9 @@
 sources:
-    sea_ice:
+    bedmachine:
       args:
         urlpath: "gs://ldeo-glaciology/bedmachine/bm.zarr"
-      description: "Bedmachine"
+      description: "bedmachine"
       driver: intake_xarray.xzarr.ZarrSource
       metadata: {}
         
-        
+ # ideally we would add some default plotting here, but I cant work out how to add plotting functions that only plot a subset of the data       
