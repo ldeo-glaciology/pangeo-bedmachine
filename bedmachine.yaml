@@ -1,0 +1,9 @@
+sources:
+    sea_ice:
+      args:
+        urlpath: "gs://ldeo-glaciology/bedmachine/bm.zarr"
+      description: "Bedmachine"
+      driver: intake_xarray.xzarr.ZarrSource
+      metadata: {}
+        
+        
